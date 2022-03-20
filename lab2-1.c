@@ -1,25 +1,25 @@
 #include <stdio.h>
 int main()
 {
-char charType;	//charTypeÀÌ¶ó´Â º¯¼ö¸íÀ» °¡Áø charÇü º¯¼ö »ı¼º
-int integerType;	//integerTypeÀÌ¶ó´Â º¯¼ö¸íÀ» °¡Áø intÇü º¯¼ö »ı¼º
-float floatType;	//floatTypeÀÌ¶ó´Â º¯¼ö¸íÀ» °¡Áø floatÇü º¯¼ö »ı¼º
-double doubleType;	//doubleTypeÀÌ¶ó´Â º¯¼ö¸íÀ» °¡Áø doubleÇü º¯¼ö »ı¼º
+char charType;	//charTypeì´ë¼ëŠ” ë³€ìˆ˜ëª…ì„ ê°€ì§„ charí˜• ë³€ìˆ˜ ìƒì„±
+int integerType;	//integerTypeì´ë¼ëŠ” ë³€ìˆ˜ëª…ì„ ê°€ì§„ intí˜• ë³€ìˆ˜ ìƒì„±
+float floatType;	//floatTypeì´ë¼ëŠ” ë³€ìˆ˜ëª…ì„ ê°€ì§„ floatí˜• ë³€ìˆ˜ ìƒì„±
+double doubleType;	//doubleTypeì´ë¼ëŠ” ë³€ìˆ˜ëª…ì„ ê°€ì§„ doubleí˜• ë³€ìˆ˜ ìƒì„±
 printf("[----- [Your Name] [Student ID] -----]\n");
-printf("\t½Å½Â¿ë      2019038073\n");
-printf("Size of char: %ld byte\n", sizeof(charType));//sizeofÇÔ¼ö¸¦ ÅëÇØ charType º¯¼öÀÇ ÀÚ·áÇüÀÌ °¡						Áø ¸Ş¸ğ¸® Å©±â¸¦ Ãâ·Â
-printf("Size of int: %ld bytes\n", sizeof(integerType));//sizeofÇÔ¼ö¸¦ ÅëÇØ integerType º¯¼öÀÇ ÀÚ·áÇü						  ÀÌ °¡Áø ¸Ş¸ğ¸® Å©±â¸¦ Ãâ·Â
-printf("Size of float: %ld bytes\n", sizeof(floatType));//sizeofÇÔ¼ö¸¦ ÅëÇØ floatType º¯¼öÀÇ ÀÚ·áÇüÀÌ 						  °¡Áø ¸Ş¸ğ¸® Å©±â¸¦ Ãâ·Â
-printf("Size of double: %ld bytes\n", sizeof(doubleType));//sizeofÇÔ¼ö¸¦ ÅëÇØ doubleType º¯¼öÀÇ ÀÚ·á						     ÇüÀÌ °¡Áø ¸Ş¸ğ¸® Å©±â¸¦ Ãâ·Â
+printf("\tì‹ ìŠ¹ìš©      2019038073\n");
+printf("Size of char: %ld byte\n", sizeof(charType));//sizeofí•¨ìˆ˜ë¥¼ í†µí•´ charType ë³€ìˆ˜ì˜ ìë£Œí˜•ì´ ê°€ì§„ ë©”ëª¨ë¦¬ í¬ê¸°ë¥¼ ì¶œë ¥
+printf("Size of int: %ld bytes\n", sizeof(integerType));//sizeofí•¨ìˆ˜ë¥¼ í†µí•´ integerType ë³€ìˆ˜ì˜ ìë£Œí˜•ì´ ê°€ì§„ ë©”ëª¨ë¦¬ í¬ê¸°ë¥¼ ì¶œë ¥
+printf("Size of float: %ld bytes\n", sizeof(floatType));//sizeofí•¨ìˆ˜ë¥¼ í†µí•´ floatType ë³€ìˆ˜ì˜ ìë£Œí˜•ì´ ê°€ì§„ ë©”ëª¨ë¦¬ í¬ê¸°ë¥¼ ì¶œë ¥
+printf("Size of double: %ld bytes\n", sizeof(doubleType));//sizeofí•¨ìˆ˜ë¥¼ í†µí•´ doubleType ë³€ìˆ˜ì˜ ìë£Œ=í˜•ì´ ê°€ì§„ ë©”ëª¨ë¦¬ í¬ê¸°ë¥¼ ì¶œë ¥
 printf("-----------------------------------------\n");
-printf("Size of char: %ld byte\n", sizeof(char));//sizeofÇÔ¼ö¸¦ ÅëÇØ charÇü ÀÚ·áÇüÀÌ °¡Áø ¸Ş¸ğ¸® Å©±â 					    Ãâ·Â
-printf("Size of int: %ld bytes\n", sizeof(int));//sizeofÇÔ¼ö¸¦ ÅëÇØ intÇü ÀÚ·áÇüÀÌ °¡Áø ¸Ş¸ğ¸® Å©±â Ãâ·Â
-printf("Size of float: %ld bytes\n", sizeof(float));//sizeofÇÔ¼ö¸¦ ÅëÇØ floatÇü ÀÚ·áÇüÀÌ °¡Áø ¸Ş¸ğ¸® Å©±â 					     Ãâ·Â
-printf("Size of double: %ld bytes\n", sizeof(double));//sizeofÇÔ¼ö¸¦ ÅëÇØ doubleÇü ÀÚ·áÇüÀÌ °¡Áø ¸Ş¸ğ						¸® Å©±â Ãâ·Â
+printf("Size of char: %ld byte\n", sizeof(char));//sizeofí•¨ìˆ˜ë¥¼ í†µí•´ charí˜• ìë£Œí˜•ì´ ê°€ì§„ ë©”ëª¨ë¦¬ í¬ê¸° ì¶œë ¥
+printf("Size of int: %ld bytes\n", sizeof(int));//sizeofí•¨ìˆ˜ë¥¼ í†µí•´ intí˜• ìë£Œí˜•ì´ ê°€ì§„ ë©”ëª¨ë¦¬ í¬ê¸° ì¶œë ¥
+printf("Size of float: %ld bytes\n", sizeof(float));//sizeofí•¨ìˆ˜ë¥¼ í†µí•´ floatí˜• ìë£Œí˜•ì´ ê°€ì§„ ë©”ëª¨ë¦¬ í¬ê¸° ì¶œë ¥
+printf("Size of double: %ld bytes\n", sizeof(double));//sizeofí•¨ìˆ˜ë¥¼ í†µí•´ doubleí˜• ìë£Œí˜•ì´ ê°€ì§„ ë©”ëª¨ë¦¬ í¬ê¸° ì¶œë ¥
 printf("-----------------------------------------\n");
-printf("Size of char*: %ld byte\n", sizeof(char*));//sizeofÇÔ¼ö¸¦ ÅëÇØ charÇü Æ÷ÀÎÅÍ°¡ °¡Áø ¸Ş¸ğ¸® Å©					      ±â Ãâ·Â
-printf("Size of int*: %ld bytes\n", sizeof(int*));//sizeofÇÔ¼ö¸¦ ÅëÇØ intÇü Æ÷ÀÎÅÍ°¡ °¡Áø ¸Ş¸ğ¸® Å©±â Ãâ					    ·Â
-printf("Size of float*: %ld bytes\n", sizeof(float*));//sizeofÇÔ¼ö¸¦ ÅëÇØ floatÇü Æ÷ÀÎÅÍ°¡ °¡Áø ¸Ş¸ğ¸® Å©					       ±â Ãâ·Â
-printf("Size of double*: %ld bytes\n", sizeof(double*));//sizeofÇÔ¼ö¸¦ ÅëÇØ doubleÇü Æ÷ÀÎÅÍ°¡ °¡Áø ¸Ş						   ¸ğ¸® Å©±â Ãâ·Â
+printf("Size of char*: %ld byte\n", sizeof(char*));//sizeofí•¨ìˆ˜ë¥¼ í†µí•´ charí˜• í¬ì¸í„°ê°€ ê°€ì§„ ë©”ëª¨ë¦¬ í¬ê¸° ì¶œë ¥
+printf("Size of int*: %ld bytes\n", sizeof(int*));//sizeofí•¨ìˆ˜ë¥¼ í†µí•´ intí˜• í¬ì¸í„°ê°€ ê°€ì§„ ë©”ëª¨ë¦¬ í¬ê¸° ì¶œë ¥
+printf("Size of float*: %ld bytes\n", sizeof(float*));//sizeofí•¨ìˆ˜ë¥¼ í†µí•´ floatí˜• í¬ì¸í„°ê°€ ê°€ì§„ ë©”ëª¨ë¦¬ í¬ê¸° ì¶œë ¥
+printf("Size of double*: %ld bytes\n", sizeof(double*));//sizeofí•¨ìˆ˜ë¥¼ í†µí•´ doubleí˜• í¬ì¸í„°ê°€ ê°€ì§„ ë©”ëª¨ë¦¬ í¬ê¸° ì¶œë ¥
 return 0;
 }
